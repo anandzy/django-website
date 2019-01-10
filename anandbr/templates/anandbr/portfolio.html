@@ -1,0 +1,39 @@
+{% extends 'anandbr/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container" style="margin-top: 100px">
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'anandbr/images/architecture.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Architectural Solutions</h5>
+                    <p class="card-text">Providing end2end solutions to the surveying and Architect Solutions for Home & Businesses..</p>
+                    <p class="card-text">
+                        <small class="text-muted">GIS, Surveying, Patents</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'anandbr/images/automation.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Automation & Engg</h5>
+                    <p class="card-text">IOT Application to help firefighters. Includes Facial Tracking and Environment detection</p>
+                    <p class="card-text">
+                        <small class="text-muted">Internet of Things</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'anandbr/images/onlinegaming.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Onlinegaming and IT Solutions</h5>
+                    <p class="card-text">Smart solutions & simple working - IOT based Application and hardware</p>
+                    <p class="card-text">
+                        <small class="text-muted">Developers and Hosting Solutions</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
