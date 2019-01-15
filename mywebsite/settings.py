@@ -25,7 +25,7 @@ SECRET_KEY = 'sa6$@_nx6^x&_n@c7kx9*s7x*ty$jhmucm5mb+x_bvp9bsuk=5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['puligumma.xyz']
 
 #This line manually added to tell django to consider our new app
 # Application definition
